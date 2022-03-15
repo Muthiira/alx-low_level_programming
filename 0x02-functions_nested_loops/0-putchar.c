@@ -1,13 +1,20 @@
-#include<main.h>
-#include<stdio.h>
-#include<unistd.h>
-
+#include "main.h"
 /**
-*main - prrints _putchar followed by a new line
+*main - print _putchar followed by a new line
 *always return 0 (success)
 */
+int main(void) 
+{
+    char *s = "_putchar";
+    while(*s != '\0')
+    {
+       _putchar(*s);
+       s++; 
+    }
+    _putchar('\n');
 
-int main(void){
-putchar("_putchar \n");
-return (0);
+    return (0);
+
 }
+
+
