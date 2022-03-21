@@ -1,11 +1,9 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strlen -functions that returns the length of a string
- * @s: string to be check
- * return: length of string
- * _strlen - return unsigned int
- * return : unsigned int
+ * _strlen - Function that returns the length of a string
+ * @s: String to be check
+ * Return: Length of a string
  */
 int _strlen(char *s) /* _strlen - return unsigned int */
 {
