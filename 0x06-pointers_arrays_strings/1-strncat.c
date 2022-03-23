@@ -3,8 +3,9 @@
 
 /**
  * _strncat - concecrates n bytes from src
- * dest: destiination string
- * src: source string
+ * @dest: destiination string
+ * @src: source string
+ * @n: number of bytes of str to concatenate
  * Return: a pointer to the resulting string dest
  */
 
