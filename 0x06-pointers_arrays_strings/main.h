@@ -10,3 +10,4 @@ char *cap_string(char *str);
 char *leet(char *s);
 void print_number(int n);
 int _putchar(char c);
+char *rot13(char *);
